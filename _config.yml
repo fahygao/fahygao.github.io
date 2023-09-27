@@ -8,7 +8,10 @@ url:
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: Yifei (Fahy) Gao
+  name: Yifei Gao
+  chinese character: 高一斐
+  pronunciation: E-fay-Gaw
+  english name: Fahy
   description:
     - Hello!
     - Welcome to my personal website
@@ -25,7 +28,7 @@ json:
     github: https://github.com/fahygao
   Things I have done: 
     A Chinese Slang website: https://citang-djangoreact-project2.vercel.app/ 
-    A Startup - Citang: https://www.linkedin.com/company/xincitionary-%E8%AF%8D%E5%A0%82
+    A Startup Citang: https://www.linkedin.com/company/xincitionary-%E8%AF%8D%E5%A0%82
     A couple of vlogs: https://space.bilibili.com/17897244
 
 
