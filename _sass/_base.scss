@@ -2,8 +2,8 @@ body {
   font-family: "hack", monospace;
   font-size: 16px;
   font-weight: 400;
-  background-color: var(--oc-gray-9);
-  color: var(--oc-lime-7);
+  background-color: var(--oc-lime-9);
+  color: var(--oc-orange-4);
 }
 
 main {
@@ -35,6 +35,6 @@ a {
 
   &:hover,
   &:active {
-    color: var(--oc-lime-8);
+    color: var(--oc-orange-8);
   }
 }
