@@ -9,14 +9,16 @@ url:
 # can be declared either as a single string or as a string array/hash
 json:
   name: Yifei Gao
-  chinese character: 高一斐
+  chinese: 高一斐
   pronunciation: E-fay-Gaw
   english name: Fahy
   description:
     - Hello!
-    - Welcome to my personal website
+    - Welcome!
     - I love a lot of things...
-    - Hope you find something interesting here!
+    - Math, nature, music
+    - People, Rollerskating,
+    - AI, Elon Musk, Ella❤️
   cv: assets/cv.pdf
   contact:
     phone: +1 929 248 7284

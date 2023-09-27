@@ -17,12 +17,12 @@ layout: default
       {% endfor %}
     </div>
     {% if site.json.chinese %}
-    {% assign chi = site.json.chinese | split: "/" | slice: -1 %}
-    <p><span class="key">chinese</span>{{ chi }}</p>
+    {% assign chi = site.json.chinese %}
+    <p><span class="key">chinese</span><span class="attr">{{ chi }}</span></p>
     {% endif %}
     {% if site.json.pronunciation %}
-    {% assign pronunciation = site.json.pronunciation | split: "/" | slice: -1 %}
-    <p><span class="key">pronunciation</span>{{ pronunciation }}</p>
+    {% assign pronunciation = site.json.pronunciation %}
+    <p><span class="key">pronunciation</span><span class="attr">{{ pronunciation }}</span></p>
     {% endif %}
     <p><span class="key">description</span>{% include typed.html %}</p>
     {% else %}
