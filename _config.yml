@@ -1,0 +1,50 @@
+# this is only for search engines, it does not appear in the home
+# as long as the json variables name and description are provided
+title: Yifei Gao's Personal Website
+description:  Here is some snapshots of my life
+baseurl: ""
+url: https://github.com/fahygao.github.io
+
+# this information is shown on the homepage, all fields are optional and
+# can be declared either as a single string or as a string array/hash
+json:
+  name: Yifei (Fahy) Gao
+  description:
+    - Hello!
+    - Welcome to my personal website
+    - I love a lot of things...
+    - Hope you find something interesting here!
+  cv: assets/cv.pdf
+  contact:
+    phone: +1 929 248 7284
+    email: fahygao@gmail.com
+  profiles:
+    instagram: https://www.instagram.com/fahygaoyf
+    linkedin: https://www.linkedin.com/in/fahy-gao/
+    Leetcode: https://leetcode.com/Fahygaoyf/
+    github: https://github.com/fahygao
+  Things I have done: 
+    A Chinese Slang website: https://citang-djangoreact-project2.vercel.app/ 
+    A wechat Mini Program (DM me if you want to know)
+    A Startup - Citang: https://www.linkedin.com/company/xincitionary-%E8%AF%8D%E5%A0%82
+    A couple of vlogs: https://space.bilibili.com/17897244
+    A couple of original songs: 
+    A couple of blogs:  
+
+
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
