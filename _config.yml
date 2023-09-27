@@ -3,7 +3,7 @@
 title: Yifei Gao's Personal Website
 description:  Here is some snapshots of my life
 baseurl: ""
-url: https://github.com/fahygao.github.io
+url: 
 
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
@@ -25,11 +25,9 @@ json:
     github: https://github.com/fahygao
   Things I have done: 
     A Chinese Slang website: https://citang-djangoreact-project2.vercel.app/ 
-    A wechat Mini Program (DM me if you want to know)
     A Startup - Citang: https://www.linkedin.com/company/xincitionary-%E8%AF%8D%E5%A0%82
     A couple of vlogs: https://space.bilibili.com/17897244
-    A couple of original songs: 
-    A couple of blogs:  
+
 
 
 
