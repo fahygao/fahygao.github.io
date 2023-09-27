@@ -2,8 +2,8 @@
 # as long as the json variables name and description are provided
 title: Yifei Gao's Personal Website
 description:  Here is some snapshots of my life
-baseurl: ""
-url: 
+baseurl: "https://fahygao.github.io/"
+url: https://fahygao.github.io/
 
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
@@ -31,6 +31,30 @@ json:
     spotify: https://open.spotify.com/user/22wt44me6e7nlz6llzeuf2hji?si=07d0339588984b30
     bilibili: https://space.bilibili.com/17897244
     my startup - citang: https://linktr.ee/citangge
+  jobs: 
+    Quant Developer
+    RollerSkating Trainer
+    Ice Cream Scooper 
+    Editor-in-chief
+    Teacher Assistant
+    Video Editor
+    Sandwich artist
+    Vlogger
+    Entreprenuer
+    Canning&fundraising Volunteer
+    Dish washer
+    Band Vocal
+    Musical actor
+    Product Manager
+    Founder
+    software Engineer
+    Event host
+    Song Writer
+    ...
+
+
+
+
 
 
 

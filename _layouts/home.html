@@ -86,4 +86,14 @@ layout: default
     </div>
     {% endif %}
   </div>
+  <div class="block">
+    {% if site.json.jobs %}
+    <span class="array-key">Jobs I have done</span>
+    <div class="array">
+      {% for i in site.json.jobs %}
+      <p class="array-attr">{{ i | slice: 0 }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
 </main>
