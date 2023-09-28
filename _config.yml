@@ -19,18 +19,19 @@ json:
     - Math, nature, music
     - People, Rollerskating,
     - AI, Elon Musk, Ella❤️
-    - Life is beautiful, so are you.
+    - Life is beautiful
+    - so are you.
   cv: assets/cv.pdf
-  contact:
-    phone: +1 929 248 7284
-    email: fahygao@gmail.com
+  # contact:
+  #   phone: +1 929 248 7284
+  #   email: fahygao@gmail.com
   profiles:
     instagram: https://www.instagram.com/fahygaoyf
     linkedin: https://www.linkedin.com/in/fahy-gao/
     leetcode: https://leetcode.com/Fahygaoyf/
     github: https://github.com/fahygao
     spotify: https://open.spotify.com/user/22wt44me6e7nlz6llzeuf2hji?si=07d0339588984b30
-    bilibili: https://space.bilibili.com/17897244
+    # bilibili: https://space.bilibili.com/17897244
     my startup - citang: https://linktr.ee/citangge
   jobs: 
     Ice Cream Scooper: 2016 Summer
