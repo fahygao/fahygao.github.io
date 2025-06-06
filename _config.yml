@@ -1,7 +1,7 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
 title: Yifei Gao's Personal Website
-description:  Here is some snapshots of my life
+description: Here is some snapshots of my life
 baseurl: "https://fahygao.github.io/"
 url: https://fahygao.github.io/
 
@@ -14,43 +14,45 @@ json:
   english: Fahy
   description:
     - Hello!
-    - Welcome!
+    - Good to see you here!
+    - Currently exploring in Crypto,
     - I love a lot of things...
-    - Math, nature, music
-    - People, Rollerskating,
-    - AI, Elon Musk, Ella❤️
+    - running, rollerskating
+    - Books, running, guitar
+    - AI, volunteering, Ella
     - Life is beautiful
     - so are you.
   cv: assets/cv.pdf
   # contact:
   #   phone: +1 929 248 7284
   #   email: fahygao@gmail.com
-  profiles: 
+  profiles:
     instagram: https://www.instagram.com/fahygaoyf
     linkedin: https://www.linkedin.com/in/fahy-gao/
+    X (twitter): https://x.com/fahygaoyf
+    strava: https://www.strava.com/athletes/130255293
     leetcode: https://leetcode.com/Fahygaoyf/
     github: https://github.com/fahygao
-    spotify: https://open.spotify.com/user/22wt44me6e7nlz6llzeuf2hji?si=07d0339588984b30
     # bilibili: https://informationtracer.com/blog/stock-social-media.html
     my startup - citang: https://linktr.ee/citangge
+    chinese slang urban dictionary: https://citang-djangoreact-project2.vercel.app/
+    Urban dictionary (Crypto Version) I made: https://fahygaoyf2.pythonanywhere.com/
     Financial article I wrote: https://informationtracer.com/blog/stock-social-media.html
-  jobs: 
+  jobs:
     Ice Cream Scooper: 2016 Summer
     Editor-in-chief: 2020 - 2021
-    Teacher Assistant: 2019 Summer
+    Teacher Assistant/grader: 2019 Summer, 2022 Fall, 2025 Spring
     Video Editor: 2019 - 2021
-    Vlogger: 2018 - now
+    Vlogger: 2018 - 2021
+    Song Writer: 2013 - 2024
+    Band Vocal: 2015 - 2017
     Entreprenuer: 2021 - now
     Band Vocal: 2015 - 2017
     Product Manager: 2021 - now
-    Song Writer: 2013 - now
+    Software Engineer: 2022 - now
+    Data Analyst: 2017 - now
     Quant: 2022 - now
-
-
-
-
-
-
+    Crypto Trader: 2024 - now
 
 exclude:
   - LICENSE
