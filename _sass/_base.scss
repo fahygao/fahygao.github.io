@@ -27,11 +27,17 @@ main {
 
 p {
   margin: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 a {
   color: inherit;
   font-style: italic;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
 
   &:hover,
   &:active {
