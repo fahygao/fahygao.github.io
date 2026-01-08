@@ -5,42 +5,59 @@ layout: default
 <main class="json">
   <div class="block">
     {% if site.json.name %}
-    <p><span class="key">name</span><span class="attr">{{ site.json.name }}</span></p>
+    <p>
+      <span class="key">name</span
+      ><span class="attr">{{ site.json.name }}</span>
+    </p>
     {% else %}
-    <p><span class="key">name</span><span class="attr">{{ site.title }}</span></p>
-    {% endif %}
-    {% if site.json.description %}
-    {% if site.json.description.first %}
+    <p>
+      <span class="key">name</span><span class="attr">{{ site.title }}</span>
+    </p>
+    {% endif %} {% if site.json.description %} {% if site.json.description.first
+    %}
     <div id="typed-strings">
       {% for i in site.json.description %}
       <span>{{ i | prepend: '"' | append: '",'}}</span>
       {% endfor %}
     </div>
-    {% if site.json.chinese %}
-    {% assign chi = site.json.chinese %}
-    <p><span class="key">chinese character</span><span class="attr">{{ chi }}</span></p>
-    {% endif %}
-    {% if site.json.pronunciation %}
-    {% assign pronunciation = site.json.pronunciation %}
-    <p><span class="key">pronunciation</span><span class="attr">{{ pronunciation }}</span></p>
+    {% if site.json.chinese %} {% assign chi = site.json.chinese %}
+    <p>
+      <span class="key">chinese character</span
+      ><span class="attr">{{ chi }}</span>
+    </p>
+    {% endif %} {% if site.json.pronunciation %} {% assign pronunciation =
+    site.json.pronunciation %}
+    <p>
+      <span class="key">pronunciation</span
+      ><span class="attr">{{ pronunciation }}</span>
+    </p>
     {% endif %}
     <p><span class="key">description</span>{% include typed.html %}</p>
     {% else %}
-    <p><span class="key">description</span><span class="attr">{{ site.json.description }}</span></p>
-    {% endif %}
-    {% else %}
-    <p><span class="key">description</span><span class="attr">{{ site.description }}</span></p>
+    <p>
+      <span class="key">description</span
+      ><span class="attr">{{ site.json.description }}</span>
+    </p>
+    {% endif %} {% else %}
+    <p>
+      <span class="key">description</span
+      ><span class="attr">{{ site.description }}</span>
+    </p>
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.cv %}
-    {% assign cv = site.json.cv | split: "/" | slice: -1 %}
-    <p><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}" target="_blank">{{ cv }}</a></span></p>
+    {% if site.json.cv %} {% assign cv = site.json.cv | split: "/" | slice: -1
+    %}
+    <p>
+      <span class="key">cv</span
+      ><span class="attr"
+        ><a href="{{ site.json.cv }}" target="_blank">{{ cv }}</a></span
+      >
+    </p>
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.address %}
-    {% if site.json.address.first %}
+    {% if site.json.address %} {% if site.json.address.first %}
     <p><span class="array-key">address</span></p>
     <div class="array">
       {% for i in site.json.address %}
@@ -48,32 +65,47 @@ layout: default
       {% endfor %}
     </div>
     {% else %}
-    <p><span class="key">address</span><span class="attr">{{ site.json.address }}</span></p>
-    {% endif %}
-    {% endif %}
+    <p>
+      <span class="key">address</span
+      ><span class="attr">{{ site.json.address }}</span>
+    </p>
+    {% endif %} {% endif %}
   </div>
   <div class="block">
-    {% if site.json.contact %}
-    {% if site.json.contact.first %}
+    {% if site.json.contact %} {% if site.json.contact.first %}
     <p><span class="list-key">contact</span></p>
     <div class="list">
       {% for i in site.json.contact %}
-      <p><span class="list-subkey">{{ i | slice: 0 }}</span><span class="list-attr">{{ i | slice: 1 }}</span></p>
+      <p>
+        <span class="list-subkey">{{ i | slice: 0 }}</span
+        ><span class="list-attr">{{ i | slice: 1 }}</span>
+      </p>
       {% endfor %}
     </div>
     {% else %}
-    <p><span class="key">contact</span><span class="attr">{{ site.json.contact }}</span></p>
-    {% endif %}
-    {% endif %}
+    <p>
+      <span class="key">contact</span
+      ><span class="attr">{{ site.json.contact }}</span>
+    </p>
+    {% endif %} {% endif %}
   </div>
   <div class="block">
-    {% if site.json.demo %}
-    {% assign demo = site.json.demo | split: "//" | slice: 1 %}
-    <p><span class="key">demo</span><span class="attr"><a href="{{ site.json.demo }}" target="_blank">{{ demo }}</a></span></p>
-    {% endif %}
-    {% if site.json.source %}
-    {% assign source = site.json.source | split: "github.com/" | slice: 1 %}
-    <p><span class="key">source</span><span class="attr"><a href="{{ site.json.source }}" target="_blank">{{ source }}</a></span></p>
+    {% if site.json.demo %} {% assign demo = site.json.demo | split: "//" |
+    slice: 1 %}
+    <p>
+      <span class="key">demo</span
+      ><span class="attr"
+        ><a href="{{ site.json.demo }}" target="_blank">{{ demo }}</a></span
+      >
+    </p>
+    {% endif %} {% if site.json.source %} {% assign source = site.json.source |
+    split: "github.com/" | slice: 1 %}
+    <p>
+      <span class="key">source</span
+      ><span class="attr"
+        ><a href="{{ site.json.source }}" target="_blank">{{ source }}</a></span
+      >
+    </p>
     {% endif %}
   </div>
   <div class="block">
@@ -81,23 +113,29 @@ layout: default
     <span class="array-key">profiles</span>
     <div class="array">
       {% for i in site.json.profiles %}
-      <p class="array-attr"><a href="{{ i | slice: 1 }}" target="_blank">{{ i | slice: 0 }}</a></p>
+      <p class="array-attr">
+        <a href="{{ i | slice: 1 }}" target="_blank">{{ i | slice: 0 }}</a>
+      </p>
       {% endfor %}
     </div>
     {% endif %}
   </div>
   <div class="block">
-    {% if site.json.jobs %} 
-    {% if site.json.jobs.first %}
+    {% if site.json.jobs %} {% if site.json.jobs.first %}
     <p><span class="list-key">Jobs I have done</span></p>
     <div class="list">
       {% for i in site.json.jobs %}
-      <p><span class="list-subkey">{{ i | slice: 0 }}</span><span class="list-attr">{{ i | slice: 1 }}</span></p>
+      <p>
+        <span class="list-subkey">{{ i | slice: 0 }}</span
+        ><span class="list-attr">{{ i | slice: 1 }}</span>
+      </p>
       {% endfor %}
     </div>
     {% else %}
-    <p><span class="key">Jobs I have done</span><span class="attr">{{ site.json.jobs }}</span></p>
-    {% endif %}
-    {% endif %}
+    <p>
+      <span class="key">Jobs I have done</span
+      ><span class="attr">{{ site.json.jobs }}</span>
+    </p>
+    {% endif %} {% endif %}
   </div>
 </main>
